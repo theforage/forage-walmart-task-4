@@ -1,0 +1,111 @@
+shipment_identifier,product,on_time
+449263b4-6c93-4f19-8b6a-0d99a29fc637,pants,false
+449263b4-6c93-4f19-8b6a-0d99a29fc637,pants,false
+449263b4-6c93-4f19-8b6a-0d99a29fc637,pants,false
+449263b4-6c93-4f19-8b6a-0d99a29fc637,keyboards,false
+449263b4-6c93-4f19-8b6a-0d99a29fc637,keyboards,false
+76e5b84a-9d09-4efb-8b43-a0c932b958bb,baby food,false
+b541a47d-89b1-4805-97d0-1988832321f1,paint,false
+b541a47d-89b1-4805-97d0-1988832321f1,paint,false
+b541a47d-89b1-4805-97d0-1988832321f1,paint,false
+b541a47d-89b1-4805-97d0-1988832321f1,water bottles,false
+b541a47d-89b1-4805-97d0-1988832321f1,water bottles,false
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,journals,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,lotion,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,lotion,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,lotion,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,lotion,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,keyboards,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,keyboards,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,keyboards,true
+3fc6b63d-27b4-408c-b3b3-e8e94a45b079,keyboards,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,lotion,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,lotion,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,lotion,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,keys,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,keys,true
+491ee4e8-be80-4f52-802b-d8fe1a6bd487,keys,true
+22768e96-0dad-40d2-8204-3921263c3826,lamps,false
+22768e96-0dad-40d2-8204-3921263c3826,lamps,false
+22768e96-0dad-40d2-8204-3921263c3826,lamps,false
+22768e96-0dad-40d2-8204-3921263c3826,hydroponic equipment,false
+22768e96-0dad-40d2-8204-3921263c3826,balloons,false
+22768e96-0dad-40d2-8204-3921263c3826,balloons,false
+f20bbd93-1312-4f70-b257-654056412ec5,incense,true
+f20bbd93-1312-4f70-b257-654056412ec5,incense,true
+f20bbd93-1312-4f70-b257-654056412ec5,incense,true
+f20bbd93-1312-4f70-b257-654056412ec5,apples,true
+f20bbd93-1312-4f70-b257-654056412ec5,candy,true
+f20bbd93-1312-4f70-b257-654056412ec5,candy,true
+f20bbd93-1312-4f70-b257-654056412ec5,candy,true
+f20bbd93-1312-4f70-b257-654056412ec5,candy,true
+192cc6dc-4799-4247-a228-6d198675c00b,eggs,true
+192cc6dc-4799-4247-a228-6d198675c00b,eggs,true
+192cc6dc-4799-4247-a228-6d198675c00b,trampolines,true
+192cc6dc-4799-4247-a228-6d198675c00b,trampolines,true
+192cc6dc-4799-4247-a228-6d198675c00b,textbooks,true
+192cc6dc-4799-4247-a228-6d198675c00b,textbooks,true
+192cc6dc-4799-4247-a228-6d198675c00b,textbooks,true
+192cc6dc-4799-4247-a228-6d198675c00b,textbooks,true
+e31e22c1-5395-43d8-8a0a-79396d627f66,capes,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,pants,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,pants,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,water bottles,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,water bottles,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,water bottles,false
+e31e22c1-5395-43d8-8a0a-79396d627f66,water bottles,false
+6060c04b-921b-4bf9-b2d3-40e57257e5c6,earplugs,false
+6060c04b-921b-4bf9-b2d3-40e57257e5c6,earplugs,false
+d2306016-fe82-41f8-a8e1-b06812007036,baby food,false
+d2306016-fe82-41f8-a8e1-b06812007036,baby food,false
+d2306016-fe82-41f8-a8e1-b06812007036,socks,false
+d2306016-fe82-41f8-a8e1-b06812007036,lamps,false
+d2306016-fe82-41f8-a8e1-b06812007036,lamps,false
+3433af6d-4857-4dfa-88d6-5dcd2a2fce6b,carnivorous plants,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,textbooks,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,textbooks,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,textbooks,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,textbooks,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,yarn,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,yarn,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,yarn,false
+2fcf115d-068f-4a65-b443-2c5c6fe33fe0,carnivorous plants,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,toys,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,toys,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,toys,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,eggs,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,eggs,false
+a39dad1a-4b34-4f50-879e-08bec70d2b36,eggs,false
+4fc4c56e-9e44-432a-9d1c-4219271a7844,snakes,true
+4fc4c56e-9e44-432a-9d1c-4219271a7844,snakes,true
+4fc4c56e-9e44-432a-9d1c-4219271a7844,apples,true
+4fc4c56e-9e44-432a-9d1c-4219271a7844,apples,true
+4fc4c56e-9e44-432a-9d1c-4219271a7844,apples,true
+c9cf4b47-8a85-488d-b33f-d1f921552ea0,yarn,true
+c9cf4b47-8a85-488d-b33f-d1f921552ea0,yarn,true
+2b0bddcd-d73c-4ba6-b26e-aaa785d50be7,pants,true
+2b0bddcd-d73c-4ba6-b26e-aaa785d50be7,pencils,true
+2b0bddcd-d73c-4ba6-b26e-aaa785d50be7,pencils,true
+2b0bddcd-d73c-4ba6-b26e-aaa785d50be7,pencils,true
+2b0bddcd-d73c-4ba6-b26e-aaa785d50be7,pencils,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,pants,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,pants,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,pants,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,pants,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,pants,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,baby food,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,baby food,true
+36117159-bb83-4b02-b1d0-07f68fe03be6,baby food,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,socks,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,socks,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,socks,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,socks,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,alternators,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,keyboards,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,keyboards,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,keyboards,true
+c2237ca1-b7e3-40ab-b798-e1ea469301dc,keyboards,true
+cfa8a834-54bd-4f47-99ca-8912df32913b,animal masks,false
+cfa8a834-54bd-4f47-99ca-8912df32913b,furniture,false
+cfa8a834-54bd-4f47-99ca-8912df32913b,furniture,false
+cfa8a834-54bd-4f47-99ca-8912df32913b,furniture,false

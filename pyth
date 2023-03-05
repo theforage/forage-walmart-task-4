@@ -1,0 +1,37 @@
+import sqlite3
+import pandas as pd
+
+# connect to the database
+conn = sqlite3.connect('shipment_database.db')
+c = conn.cursor()
+
+# read and insert data from spreadsheet 0
+df = pd.read_csv('sdata\shipping_data_0.csv')
+df.to_sql('products', conn, if_exists='append', index=False)
+
+# read and insert data from spreadsheet 1
+df1 = pd.read_csv('data\shipping_data_1.csv')
+df2 = pd.read_csv('data\shipping_data_2.csv')
+
+# group rows by shipping identifier and calculate total quantity
+df1_grouped = df1.groupby('shipping_identifier').agg({'product_name': 'count', 'quantity': 'sum'}).reset_index()
+df1_grouped.columns = ['shipping_identifier', 'num_products', 'total_quantity']
+
+# join with spreadsheet 2 to get origin and destination
+df_merged = pd.merge(df1_grouped, df2, on='shipping_identifier')
+
+# insert data into shipments table
+for index, row in df_merged.iterrows():
+    c.execute("INSERT INTO shipments (origin, destination, num_products, total_quantity) VALUES (?, ?, ?, ?)",
+              (row['origin'], row['destination'], row['num_products'], row['total_quantity']))
+    shipment_id = c.lastrowid
+    
+    # insert data into shipment_products table
+    products = df1[df1['shipping_identifier'] == row['shipping_identifier']]
+    for index2, product_row in products.iterrows():
+        c.execute("INSERT INTO shipment_products (shipment_id, product_name, quantity) VALUES (?, ?, ?)",
+                  (shipment_id, product_row['product_name'], product_row['quantity']))
+    
+# commit changes and close the connection
+conn.commit()
+conn.close()

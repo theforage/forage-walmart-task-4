@@ -1,0 +1,51 @@
+import pandas as pd
+import sqlite3
+
+# Step 1: Clone the repository and navigate to the directory
+# Clone the repository: https://github.com/theforage/forage-walmart-task-4
+
+# Step 2: Load data from spreadsheets into DataFrames
+spreadsheet_0 = pd.read_excel('path_to_spreadsheet_0.xlsx')
+spreadsheet_1 = pd.read_excel('path_to_spreadsheet_1.xlsx')
+spreadsheet_2 = pd.read_excel('path_to_spreadsheet_2.xlsx')
+
+# Step 3: Create a connection to the SQLite database
+conn = sqlite3.connect('walmart_shipping.db')
+cursor = conn.cursor()
+
+# Step 4: Insert data from Spreadsheet 0 directly into the database
+spreadsheet_0.to_sql('Table0', conn, if_exists='replace', index=False)
+
+# Step 5: Process and insert data from Spreadsheet 1
+for index, row in spreadsheet_1.iterrows():
+    shipping_identifier = row['shipping_identifier']
+    product_name = row['product_name']
+    quantity = row['quantity']
+    
+    # Calculate quantity of goods in the shipment (you may need additional logic)
+    # quantity = ...
+
+    # Insert data into the database
+    cursor.execute("INSERT INTO Table1 (shipping_identifier, product_name, quantity) VALUES (?, ?, ?)",
+                   (shipping_identifier, product_name, quantity))
+
+# Step 6: Extract origin and destination data from Spreadsheet 2
+origin_destination_data = {}
+for index, row in spreadsheet_2.iterrows():
+    shipping_identifier = row['shipping_identifier']
+    origin = row['origin']
+    destination = row['destination']
+    
+    origin_destination_data[shipping_identifier] = {'origin': origin, 'destination': destination}
+
+# Step 7: Update entries in the database with origin and destination information
+for shipping_identifier, data in origin_destination_data.items():
+    origin = data['origin']
+    destination = data['destination']
+    
+    cursor.execute("UPDATE Table1 SET origin = ?, destination = ? WHERE shipping_identifier = ?",
+                   (origin, destination, shipping_identifier))
+
+# Commit changes and close the database connection
+conn.commit()
+conn.close()
